@@ -1,0 +1,54 @@
+env:
+  TERM: xterm-256color
+window:
+  dimensions:
+    columns: 0
+    lines: 0
+  padding:
+    x: 5
+    y: 5
+  decorations: full
+scrolling:
+  history: 10000
+  multiplier: 10
+  faux_multiplier: 10
+  auto_scroll: true
+tabspaces: 4
+font:
+  size: 7
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+render_timer: false
+draw_bold_text_with_bright_colors: true
+colors:
+  primary:
+    background: "#1a1b26"
+    #background: "#272a34"
+    foreground: "#eff0eb"
+  normal:
+    black: "#282a36"
+    red: "#ff5c57"
+    green: "#5af78e"
+    yellow: "#f3f99d"
+    blue: "#57c7ff"
+    magenta: "#ff6ac1"
+    cyan: "#9aedfe"
+    white: "#f1f1f0"
+  bright:
+    black: "#686868"
+    red: "#ff5c57"
+    green: "#5af78e"
+    yellow: "#f3f99d"
+    blue: "#57c7ff"
+    magenta: "#ff6ac1"
+    cyan: "#9aedfe"
+    white: "#f1f1f0"
+    #custom_cursor_colors: true
+  visual_bell:
+  animation: EaseOutExpo
+  duration: 0
+background_opacity: 0.9
