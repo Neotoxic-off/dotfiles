@@ -16,8 +16,8 @@ $shutdown" | rofi -dmenu\
                   -i\
                   -p "Power"\
                   -config "~/.config/rofi/config.rasi"\
-                  -font "Symbols Nerd Font 12"\
-                  -width "15"\
+                  -font "Monospace 10"\
+                  -width "10"\
                   -lines 5\
                   -line-margin 3\
                   -line-padding 10\
