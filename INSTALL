@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+GREEN="\e[1;32m"
+RED="\e[1;31m"
+
+install_pacman()
+{
+    sudo pacman -Syu
+
+    printf "$GREEN [-] installing discord\n"
+    sudo pacman -Syu discord -y  > /dev/null
+    printf "$GREEN [-] installing fira code\n"
+    sudo pacman -Syu ttf-fira-code -y > /dev/null
+    printf "$GREEN [-] installing alacritty\n"
+    sudo pacman -Syu alacritty > /dev/null
+    printf "$GREEN [-] installing fish\n"
+    sudo pacman -Syu fish > /dev/null
+    printf "$GREEN [-] installing npm\n"
+    sudo pacman -Syu npm > /dev/null
+}
+
+copy_dotfiles()
+{
+    printf "$GREEN [-] copy dotfiles\n"
+    cp -rf .config/* ~/.config
+}
+
+fish_setup()
+{
+    printf "$GREEN [-] installing OMF\n"
+    curl -L https://get.oh-my.fish > /dev/null | fish > /dev/null
+    printf "$GREEN [-] installing fish theme\n"
+    omf install agnoster > /dev/null
+}
+
+alacritty_setup()
+{
+    printf "$GREEN [-] installing alacritty theme\n"
+    sudo npm i -g alacritty-themes
+    alacritty-themes Dracula
+}
+
+#copy_dotfiles
+install_pacman
+fish_setup
+alacritty_setup
