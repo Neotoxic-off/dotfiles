@@ -15,6 +15,27 @@ scrolling:
   auto_scroll: true
 tabspaces: 4
 font:
+  # The normal (roman) font face to use.
+  # Style can be specified to pick a specific face.
+  normal:
+    family: "Fira Code"
+    style: Medium
+    # family: "Source Code Pro"
+    # style: Retina
+
+  # The bold font face
+  bold:
+    family: "Fira Code"
+    style: Medium
+    # family: "Source Code Pro"
+
+  # The italic font face
+  italic:
+    style: "Light Italic"
+    # style: "Light Oblique"
+    family: "Fira Code"
+    # family: "Source Code Pro"
+    # style: "Medium Italic"
   size: 7
   offset:
     x: 0
@@ -24,32 +45,26 @@ font:
     y: 0
 render_timer: false
 draw_bold_text_with_bright_colors: true
-
 colors:
   primary:
-    background: "#1a1b26"
-    #background: "#272a34"
-    foreground: "#eff0eb"
+    background: "#282a36"
+    foreground: "#f8f8f2"
   normal:
-    black: "#282a36"
-    red: "#ff5c57"
-    green: "#5af78e"
-    yellow: "#f3f99d"
-    blue: "#57c7ff"
-    magenta: "#ff6ac1"
-    cyan: "#9aedfe"
-    white: "#f1f1f0"
+    black: "#000000"
+    red: "#ff5555"
+    green: "#50fa7b"
+    yellow: "#f1fa8c"
+    blue: "#caa9fa"
+    magenta: "#ff79c6"
+    cyan: "#8be9fd"
+    white: "#bfbfbf"
   bright:
-    black: "#686868"
-    red: "#ff5c57"
+    black: "#575b70"
+    red: "#ff6e67"
     green: "#5af78e"
-    yellow: "#f3f99d"
-    blue: "#57c7ff"
-    magenta: "#ff6ac1"
+    yellow: "#f4f99d"
+    blue: "#caa9fa"
+    magenta: "#ff92d0"
     cyan: "#9aedfe"
-    white: "#f1f1f0"
-    #custom_cursor_colors: true
-  visual_bell:
-  animation: EaseOutExpo
-  duration: 0
+    white: "#e6e6e6"
 background_opacity: 0.9
