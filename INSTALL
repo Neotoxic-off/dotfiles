@@ -8,15 +8,39 @@ install_pacman()
     sudo pacman -Syu
 
     printf "$GREEN [-] installing discord\n"
-    sudo pacman -Syu discord -y  > /dev/null
+    sudo pacman -Syu discord
     printf "$GREEN [-] installing fira code\n"
-    sudo pacman -Syu ttf-fira-code -y > /dev/null
+    sudo pacman -Syu ttf-fira-code
     printf "$GREEN [-] installing alacritty\n"
-    sudo pacman -Syu alacritty > /dev/null
+    sudo pacman -Syu alacritty
     printf "$GREEN [-] installing fish\n"
-    sudo pacman -Syu fish > /dev/null
+    sudo pacman -Syu fish
+    printf "$GREEN [-] installing neovim\n"
+    sudo pacman -Syu neovim
     printf "$GREEN [-] installing npm\n"
-    sudo pacman -Syu npm > /dev/null
+    sudo pacman -Syu npm
+}
+
+ssh_keygen()
+{
+    printf "$GREEN [-] generating ssh key\n"
+    ssh-keygen
+}
+
+font_setup()
+{
+    git clone https://github.com/powerline/fonts.git --depth=1
+    cd fonts
+    ./install.sh
+    cd ..
+}
+
+bspwm_install()
+{
+    git clone https://github.com/EndeavourOS-Community-Editions/bspwm.git
+    cd bspwm
+    bash bspwm-install.sh
+    cd ..
 }
 
 copy_dotfiles()
@@ -28,9 +52,10 @@ copy_dotfiles()
 fish_setup()
 {
     printf "$GREEN [-] installing OMF\n"
-    curl -L https://get.oh-my.fish > /dev/null | fish > /dev/null
+    curl -L https://get.oh-my.fish | fish
     printf "$GREEN [-] installing fish theme\n"
-    omf install agnoster > /dev/null
+    omf install agnoster
+    chsh -s `which fish`
 }
 
 alacritty_setup()
@@ -40,7 +65,18 @@ alacritty_setup()
     alacritty-themes Dracula
 }
 
-#copy_dotfiles
+neovim_setup()
+{
+    mv ~/.config/nvim ~/.config/Nvim.backup
+    git clone https://github.com/NvChad/NvChad ~/.config/nvim
+    nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
+    cp .config/nvim ~/.config/
+}
+
+ssh_keygen
 install_pacman
 fish_setup
+bspwm_install
+copy_dotfiles
 alacritty_setup
+neovim_setup

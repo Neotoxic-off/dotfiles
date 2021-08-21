@@ -15,27 +15,15 @@ scrolling:
   auto_scroll: true
 tabspaces: 4
 font:
-  # The normal (roman) font face to use.
-  # Style can be specified to pick a specific face.
   normal:
-    family: "Fira Code"
+    family: Inconsolata
     style: Medium
-    # family: "Source Code Pro"
-    # style: Retina
-
-  # The bold font face
   bold:
-    family: "Fira Code"
+    family: Inconsolata
     style: Medium
-    # family: "Source Code Pro"
-
-  # The italic font face
   italic:
-    style: "Light Italic"
-    # style: "Light Oblique"
-    family: "Fira Code"
-    # family: "Source Code Pro"
-    # style: "Medium Italic"
+    style: Light Italic
+    family: Inconsolata
   size: 7
   offset:
     x: 0
