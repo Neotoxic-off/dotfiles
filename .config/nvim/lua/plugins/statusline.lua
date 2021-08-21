@@ -116,7 +116,7 @@ gls.left[6] = {
    current_dir = {
       provider = function()
          local dir_name = vim.fn.fnamemodify(vim.fn.getcwd(), ":t")
-         return "  " .. dir_name .. " "
+         return "  " .. dir_name .. " "
       end,
       highlight = { colors.grey_fg2, colors.lightbg2 },
       separator = right_separator,

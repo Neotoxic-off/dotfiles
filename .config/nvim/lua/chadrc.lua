@@ -3,7 +3,7 @@
 local M = {}
 
 M.ui = {
-   theme = "onedark",
+   theme = "chadracula",
 
    -- theme toggle
    theme_toggler = false,
