@@ -1,22 +1,10 @@
 # dotfiles
 
-### Tiling window manager
-**bspwm**
+### Configuration
 
-### Font
-**Inconsolata**
+**Tiling window manager: bspwm**
+**Terminal: Alacritty**
+**Code Editor: Neovim & Nvchad Configuration**
+**Shell: Fish && theme agnoster**
 
-### Terminal
-**Alacritty**
-
-### Code Editor
-**Neovim**
-#### Configuration
-**Nvchad**
-
-### Shell
-**Fish**
-#### Configuration
-**Oh My Fish (omf)**
-#### Theme
-**agnoster**
+<a align = "center">
