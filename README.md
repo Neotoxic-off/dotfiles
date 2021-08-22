@@ -1,6 +1,6 @@
 # dotfiles
 
-### Desktop manager
+### Tiling window manager
 **bspwm**
 
 ### Font
