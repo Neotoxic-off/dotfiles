@@ -18,8 +18,8 @@ scrolling:
 tabspaces: 4
 font:
   normal:
-    family: Noto Sans Mono
-    style: Medium
+    family: Noto Mono for Powerline
+    style: Regular
   bold:
     family: Noto Sans Mono
     style: Medium
