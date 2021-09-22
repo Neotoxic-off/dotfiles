@@ -9,8 +9,11 @@ install_pacman()
 
     printf "$GREEN [-] installing discord\n"
     sudo pacman -Syu discord
-    printf "$GREEN [-] installing fira code\n"
-    sudo pacman -Syu ttf-fira-code
+    printf "$GREEN [-] installing powerline\n"
+    git clone https://github.com/powerline/fonts
+    cd fonts
+    ./install.sh
+    cd ..
     printf "$GREEN [-] installing alacritty\n"
     sudo pacman -Syu alacritty
     printf "$GREEN [-] installing fish\n"
