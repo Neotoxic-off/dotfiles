@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"Fantasque Sans Mono 10";
+	font:							"Terminus 9";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -39,7 +39,7 @@ prompt {
 	padding: 						10px 15px 10px 15px;
 	background-color: 				@bg1;
 	text-color: 					#FFFFFF;
-	font:							"Iosevka Nerd Font 10";
+	font:							"Iosevka Nerd Font 8";
 }
 
 entry {

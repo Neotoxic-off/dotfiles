@@ -1,0 +1,14 @@
+[2021-12-06 16:54:34.863] [exthost] [info] Extension host with pid 447877 started
+[2021-12-06 16:54:34.863] [exthost] [info] Skipping acquiring lock for /home/neo/.config/Code - OSS/User/workspaceStorage/b22faa393ff37cde86dd5d9569949662.
+[2021-12-06 16:54:34.965] [exthost] [info] ExtensionService#_doActivateExtension muhammad-sammy.csharp, startup: false, activationEvent: 'onLanguage:csharp'
+[2021-12-06 16:54:35.046] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-06 16:54:35.050] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-06 16:54:35.097] [exthost] [info] ExtensionService#_doActivateExtension cweijan.cweijan-personal-material-icon-theme, startup: true, activationEvent: '*'
+[2021-12-06 16:54:35.111] [exthost] [info] ExtensionService#_doActivateExtension mblode.pretty-formatter, startup: true, activationEvent: '*'
+[2021-12-06 16:54:35.378] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-06 16:54:35.488] [exthost] [info] Eager extensions activated
+[2021-12-06 16:54:35.585] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-06 16:54:39.273] [exthost] [error] [muhammad-sammy.csharp] provider FAILED
+[2021-12-06 16:54:39.273] [exthost] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: undefined
+[2021-12-06 16:57:38.492] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-06 16:57:39.555] [exthost] [info] Extension host with pid 447877 exiting with code 0

@@ -1,0 +1,75 @@
+Starting OmniSharp server at 12/7/2021, 1:07:17 PM
+    Target: /home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien
+
+OmniSharp server started.
+    Path: /home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/run
+    PID: 1963
+
+[info]: OmniSharp.Stdio.Host
+        Starting OmniSharp on endeavouros 0.0 (x64)
+[info]: OmniSharp.Services.DotNetCliService
+        Checking the 'DOTNET_ROOT' environment variable to find a .NET SDK
+[info]: OmniSharp.Services.DotNetCliService
+        DotNetPath set to /home/neo/.dotnet/dotnet
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Located 1 MSBuild instance(s)
+            1: StandAlone 17.0.0 - "/home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/omnisharp/.msbuild/Current/Bin"
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        MSBUILD_EXE_PATH environment variable set to '/home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/omnisharp/.msbuild/Current/Bin/MSBuild.exe'
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Registered MSBuild instance: StandAlone 17.0.0 - "/home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/omnisharp/.msbuild/Current/Bin"
+            CscToolExe = csc.exe
+            MSBuildToolsPath = /home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/omnisharp/.msbuild/Current/Bin
+            CscToolPath = /home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/omnisharp/.msbuild/Current/Bin/Roslyn
+            BypassFrameworkInstallChecks = true
+            MSBuildExtensionsPath = /home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/omnisharp/.msbuild
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.CSharpFormattingWorkspaceOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.RenameWorkspaceOptionsProvider, Order: 100
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.ImplementTypeWorkspaceOptionsProvider, Order: 110
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.BlockStructureWorkspaceOptionsProvider, Order: 140
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Detecting Cake files in '/home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien'.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Could not find any Cake files
+[info]: OmniSharp.MSBuild.ProjectSystem
+        No solution files found in '/home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien/Dashboard/Dashboard.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien/DashboardAPI/DashboardAPI.csproj'
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Detecting CSX files in '/home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien'.
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Could not find any CSX files
+[info]: OmniSharp.WorkspaceInitializer
+        Configuration finished.
+[info]: OmniSharp.Stdio.Host
+        Omnisharp server running using Stdio at location '/home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien' on host 1817.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien/Dashboard/Dashboard.csproj
+[fail]: OmniSharp.MSBuild.ProjectLoader
+        Package Microsoft.CodeAnalysis.Analyzers, version 1.1.0 was not found. It might have been deleted since NuGet restore. Otherwise, NuGet restore might have only partially completed, which might have been due to maximum path length restrictions.
+[warn]: OmniSharp.MSBuild.ProjectManager
+        Failed to load project file '/home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien/Dashboard/Dashboard.csproj'.
+/home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien/Dashboard/Dashboard.csproj
+/home/neo/.dotnet/sdk/5.0.208/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets(241,5): Error: Package Microsoft.CodeAnalysis.Analyzers, version 1.1.0 was not found. It might have been deleted since NuGet restore. Otherwise, NuGet restore might have only partially completed, which might have been due to maximum path length restrictions.
+
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien/DashboardAPI/DashboardAPI.csproj
+[fail]: OmniSharp.MSBuild.ProjectLoader
+        Package DnsClient, version 1.4.0 was not found. It might have been deleted since NuGet restore. Otherwise, NuGet restore might have only partially completed, which might have been due to maximum path length restrictions.
+[warn]: OmniSharp.MSBuild.ProjectManager
+        Failed to load project file '/home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien/DashboardAPI/DashboardAPI.csproj'.
+/home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien/DashboardAPI/DashboardAPI.csproj
+/home/neo/.dotnet/sdk/5.0.208/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets(241,5): Error: Package DnsClient, version 1.4.0 was not found. It might have been deleted since NuGet restore. Otherwise, NuGet restore might have only partially completed, which might have been due to maximum path length restrictions.
+
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Attempted to update project that is not loaded: /home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien/Dashboard/Dashboard.csproj
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Attempted to update project that is not loaded: /home/neo/epitech/B-DEV-500-LYN-5-1-dashboard-paul.gardien/DashboardAPI/DashboardAPI.csproj

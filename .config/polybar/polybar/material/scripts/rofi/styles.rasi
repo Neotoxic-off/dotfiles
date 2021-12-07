@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"Fantasque Sans Mono 10";
+	font:							"Terminus 9";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     drun-display-format:            "{name}";
@@ -41,8 +41,8 @@ prompt {
 }
 
 textbox-prompt-colon {
-	padding: 						0.5px 5px 5px -10px;
-	font:							"Material\-Design\-Iconic\-Font 12";
+	padding: 						1px 5px 5px -10px;
+	font:							"Material\-Design\-Iconic\-Font 10";
 	background-color: 				@al;
 	text-color: 					@bar;
 	expand: false;

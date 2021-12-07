@@ -1,0 +1,11 @@
+[2021-12-07 13:07:30.425] [exthost] [info] Extension host with pid 2291 started
+[2021-12-07 13:07:30.425] [exthost] [info] Skipping acquiring lock for /home/neo/.config/Code - OSS/User/workspaceStorage/ec5d3f3f1e62b51525bcc2971f18315e.
+[2021-12-07 13:07:30.543] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-07 13:07:30.550] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-07 13:07:30.590] [exthost] [info] ExtensionService#_doActivateExtension cweijan.cweijan-personal-material-icon-theme, startup: true, activationEvent: '*'
+[2021-12-07 13:07:30.602] [exthost] [info] ExtensionService#_doActivateExtension mblode.pretty-formatter, startup: true, activationEvent: '*'
+[2021-12-07 13:07:30.735] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-07 13:07:30.754] [exthost] [info] Eager extensions activated
+[2021-12-07 13:07:30.926] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-07 13:13:28.391] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-07 13:13:29.397] [exthost] [info] Extension host with pid 2291 exiting with code 0

@@ -21,7 +21,7 @@ font:
     family: Noto Mono for Powerline
     style: Regular
   bold:
-    family: Noto Sans Mono
+    family: Noto Mono for Powerline
     style: Medium
   italic:
     style: Light Italic
@@ -38,7 +38,7 @@ draw_bold_text_with_bright_colors: true
 colors:
   primary:
     background: "#171823"
-    #background: "#282a36"
+    #background: "#100815"
     foreground: "#f8f8f2"
   normal:
     black: "#000000"

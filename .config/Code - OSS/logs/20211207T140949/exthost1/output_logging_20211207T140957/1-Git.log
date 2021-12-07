@@ -1,0 +1,227 @@
+Validating found git in: git
+Using git 2.34.1 from git
+> git rev-parse --git-dir
+Open repository: /home/neo/boheme/Forward
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :matcher/src/matching.py
+> git show --textconv :matcher/resources/profile/profile.json
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/matching.py
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/resources/profile/profile.json
+> git cat-file -s 373d50a3c1a067e577e140588c6a99d8bff27837
+> git cat-file -s f2af0fbb3dcd968a1d464cd86802a13fb07c7777
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/matching.py
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/resources/profile/profile.json
+> git cat-file -s 373d50a3c1a067e577e140588c6a99d8bff27837
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git cat-file -s f2af0fbb3dcd968a1d464cd86802a13fb07c7777
+> git config --get commit.template
+> git show --textconv :matcher/src/matching.py
+> git show --textconv :matcher/resources/profile/profile.json
+> git show --textconv :matcher/resources/database/db_destinations.json
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/resources/database/db_destinations.json
+> git cat-file -s 10ef71b9941d05478a76b8562a8992b03e9198d7
+> git show --textconv :matcher/resources/settings/tag_list.json
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/resources/settings/tag_list.json
+> git cat-file -s 303448265251cc128efe9e9b3783f7b38fef654c
+> git show --textconv :matcher/src/core.py
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/core.py
+> git cat-file -s 71c81ed1c41bbc4b501c2252805aef4f58331862
+> git show --textconv :matcher/src/logs.py
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/logs.py
+> git cat-file -s 3772886554471a8b3e8e3284d5282ce8946b3bef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/resources/profile/profile.json
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/logs.py
+> git cat-file -s f2af0fbb3dcd968a1d464cd86802a13fb07c7777
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git cat-file -s 3772886554471a8b3e8e3284d5282ce8946b3bef
+> git config --get commit.template
+> git show --textconv :matcher/resources/profile/profile.json
+> git show --textconv :matcher/src/logs.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/resources/profile/profile.json
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/logs.py
+> git cat-file -s f2af0fbb3dcd968a1d464cd86802a13fb07c7777
+> git cat-file -s 3772886554471a8b3e8e3284d5282ce8946b3bef
+> git show --textconv :matcher/resources/profile/profile.json
+> git show --textconv :matcher/src/logs.py
+> git show --textconv :matcher/resources/settings/tag_list.json
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/resources/settings/tag_list.json
+> git cat-file -s 303448265251cc128efe9e9b3783f7b38fef654c
+> git show --textconv :matcher/dump/result.json
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/dump/result.json
+> git cat-file -s 6e891d1b3ed5f1512fc1e313eedd49bc99b1c51c
+> git show --textconv :matcher/src/logs.py
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/logs.py
+> git cat-file -s 3772886554471a8b3e8e3284d5282ce8946b3bef
+> git show --textconv :matcher/src/core.py
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/core.py
+> git cat-file -s 71c81ed1c41bbc4b501c2252805aef4f58331862
+> git show --textconv :matcher/src/matching.py
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/matching.py
+> git cat-file -s 373d50a3c1a067e577e140588c6a99d8bff27837
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/resources/profile/profile.json
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/matching.py
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git cat-file -s 373d50a3c1a067e577e140588c6a99d8bff27837
+> git cat-file -s f2af0fbb3dcd968a1d464cd86802a13fb07c7777
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :matcher/src/matching.py
+> git show --textconv :matcher/resources/profile/profile.json
+> git config --get commit.template
+> git show --textconv :matcher/dump/result.json
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/dump/result.json
+> git cat-file -s 6e891d1b3ed5f1512fc1e313eedd49bc99b1c51c
+> git show --textconv :matcher/src/lib/file.py
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/lib/file.py
+> git cat-file -s 7215343b34b8e435096b5ac6bbc71a1c5dc80696
+> git show --textconv :matcher/matcher
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/matcher
+> git cat-file -s 5d8b5673e1203280f046b16c246a80caee61de70
+> git show --textconv :README.md
+> git ls-files --stage -- /home/neo/boheme/Forward/README.md
+> git cat-file -s 679ad332d5ae1513f5adca3aecb2469f1a145d23
+> git show --textconv :matcher/src/lib/lib.py
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/lib/lib.py
+> git cat-file -s da6e9556f83dd8d54136e8eb5f5948d3fcacf28c
+> git show --textconv :matcher/src/logs.py
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/logs.py
+> git cat-file -s 3772886554471a8b3e8e3284d5282ce8946b3bef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :matcher/src/matching.py
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/matching.py
+> git cat-file -s 373d50a3c1a067e577e140588c6a99d8bff27837
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/resources/profile/profile.json
+> git ls-files --stage -- /home/neo/boheme/Forward/matcher/src/matching.py
+> git cat-file -s f2af0fbb3dcd968a1d464cd86802a13fb07c7777
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git cat-file -s 373d50a3c1a067e577e140588c6a99d8bff27837
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :matcher/resources/profile/profile.json
+> git config --get commit.template
+> git show --textconv :matcher/src/matching.py

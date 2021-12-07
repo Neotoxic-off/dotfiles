@@ -1,0 +1,105 @@
+Starting OmniSharp server at 12/7/2021, 11:21:18 AM
+    Target: /home/neo/Bloody_Paradise/Maniak
+
+OmniSharp server started.
+    Path: /home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/run
+    PID: 478686
+
+[info]: OmniSharp.Stdio.Host
+        Starting OmniSharp on endeavouros 0.0 (x64)
+[info]: OmniSharp.Services.DotNetCliService
+        Checking the 'DOTNET_ROOT' environment variable to find a .NET SDK
+[info]: OmniSharp.Services.DotNetCliService
+        DotNetPath set to /home/neo/.dotnet/dotnet
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Located 1 MSBuild instance(s)
+            1: StandAlone 17.0.0 - "/home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/omnisharp/.msbuild/Current/Bin"
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        MSBUILD_EXE_PATH environment variable set to '/home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/omnisharp/.msbuild/Current/Bin/MSBuild.exe'
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Registered MSBuild instance: StandAlone 17.0.0 - "/home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/omnisharp/.msbuild/Current/Bin"
+            CscToolExe = csc.exe
+            MSBuildToolsPath = /home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/omnisharp/.msbuild/Current/Bin
+            CscToolPath = /home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/omnisharp/.msbuild/Current/Bin/Roslyn
+            BypassFrameworkInstallChecks = true
+            MSBuildExtensionsPath = /home/neo/.vscode-oss/extensions/muhammad-sammy.csharp-1.23.16/.omnisharp/1.37.16/omnisharp/.msbuild
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.CSharpFormattingWorkspaceOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.Completion.CompletionOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.RenameWorkspaceOptionsProvider, Order: 100
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.ImplementTypeWorkspaceOptionsProvider, Order: 110
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.BlockStructureWorkspaceOptionsProvider, Order: 140
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Detecting Cake files in '/home/neo/Bloody_Paradise/Maniak'.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Could not find any Cake files
+[info]: OmniSharp.MSBuild.ProjectSystem
+        No solution files found in '/home/neo/Bloody_Paradise/Maniak'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/neo/Bloody_Paradise/Maniak/Maniak/Maniak.csproj'
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Detecting CSX files in '/home/neo/Bloody_Paradise/Maniak'.
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Could not find any CSX files
+[info]: OmniSharp.WorkspaceInitializer
+        Configuration finished.
+[info]: OmniSharp.Stdio.Host
+        Omnisharp server running using Stdio at location '/home/neo/Bloody_Paradise/Maniak' on host 478540.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/neo/Bloody_Paradise/Maniak/Maniak/Maniak.csproj
+[info]: OmniSharp.OmniSharpWorkspace
+        Miscellaneous file: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs added to workspace
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/neo/Bloody_Paradise/Maniak/Maniak/Maniak.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Adding project '/home/neo/Bloody_Paradise/Maniak/Maniak/Maniak.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: Maniak
+Received response for /v2/blockstructure but could not find request.
+Received response for /v2/codestructure but could not find request.
+Received response for /completion but could not find request.
+Received response for /completion/resolve but could not find request.
+Received response for /completion/resolve but could not find request.
+Received response for /v2/getcodeactions but could not find request.
+[warn]: OmniSharp.Roslyn.CSharp.Services.Navigation.FindUsagesService
+        No symbol found. File: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs, Line: 26, Column: 27.
+[warn]: OmniSharp.Roslyn.CSharp.Services.Navigation.FindUsagesService
+        No symbol found. File: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs, Line: 38, Column: 25.
+[warn]: OmniSharp.Roslyn.CSharp.Services.Navigation.FindUsagesService
+        No symbol found. File: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs, Line: 37, Column: 25.
+[warn]: OmniSharp.Roslyn.CSharp.Services.Navigation.FindUsagesService
+        No symbol found. File: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs, Line: 25, Column: 27.
+Received response for /v2/getcodeactions but could not find request.
+Received response for /v2/getcodeactions but could not find request.
+Received response for /v2/getcodeactions but could not find request.
+Received response for /v2/getcodeactions but could not find request.
+[warn]: OmniSharp.Roslyn.CSharp.Services.Navigation.FindUsagesService
+        No symbol found. File: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs, Line: 42, Column: 25.
+Received response for /v2/getcodeactions but could not find request.
+[warn]: OmniSharp.Roslyn.CSharp.Services.Navigation.FindUsagesService
+        No symbol found. File: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs, Line: 31, Column: 27.
+[warn]: OmniSharp.Roslyn.CSharp.Services.Navigation.FindUsagesService
+        No symbol found. File: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs, Line: 43, Column: 25.
+Received response for /v2/gotodefinition but could not find request.
+[warn]: OmniSharp.Roslyn.CSharp.Services.Navigation.FindUsagesService
+        No symbol found. File: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs, Line: 45, Column: 25.
+[warn]: OmniSharp.Roslyn.CSharp.Services.Navigation.FindUsagesService
+        No symbol found. File: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs, Line: 33, Column: 27.
+Received response for /v2/getcodeactions but could not find request.
+[warn]: OmniSharp.Roslyn.CSharp.Services.Navigation.FindUsagesService
+        No symbol found. File: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs, Line: 35, Column: 27.
+[warn]: OmniSharp.Roslyn.CSharp.Services.Navigation.FindUsagesService
+        No symbol found. File: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs, Line: 47, Column: 25.
+Received response for /findusages but could not find request.
+Received response for /v2/getcodeactions but could not find request.
+[warn]: OmniSharp.Roslyn.CSharp.Services.Navigation.FindUsagesService
+        No symbol found. File: /home/neo/Bloody_Paradise/Maniak/Maniak/Program.cs, Line: 33, Column: 42.
+Received response for /completion but could not find request.
+Received response for /v2/getcodeactions but could not find request.
+Received response for /v2/codestructure but could not find request.
+Received response for /v2/codestructure but could not find request.
+Received response for /v2/codestructure but could not find request.

@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"Iosevka Nerd Font 10";
+	font:							"Terminus 9";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -36,10 +36,10 @@ window {
 
 prompt {
     enabled: 						true;
-	padding: 						12px 15px 12px 15px;
+	padding: 						13px 15px 12px 15px;
 	background-color: 				@bg1;
 	text-color: 					@fga;
-	font:							"Iosevka Nerd Font 12";
+	font:							"Iosevka Nerd Font 8";
 }
 
 entry {

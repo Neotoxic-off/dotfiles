@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"Iosevka Nerd Font 10";
+	font:							"Terminus 9";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -42,8 +42,8 @@ prompt {
 }
 
 textbox-prompt-colon {
-	padding: 						10px 15px 10px 15px;
-	font:							"Iosevka Nerd Font 12";
+	padding: 						8px 15px 10px 15px;
+	font:							"Iosevka Nerd Font 8";
 	background-color: 				@bg1;
 	text-color: 					@fga;
 	expand: false;

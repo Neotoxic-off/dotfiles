@@ -1,0 +1,12 @@
+[2021-12-07 13:20:24.958] [renderer1] [info] Starting extension host with pid 7494.
+[2021-12-07 13:20:24.959] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 27 ms.
+[2021-12-07 13:20:25.441] [renderer1] [error] [Extension Host] (node:7494) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `electron --trace-deprecation ...` to show where the warning was created)
+[2021-12-07 13:20:28.721] [renderer1] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: undefined
+[2021-12-07 13:20:41.598] [renderer1] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: 28
+[2021-12-07 13:20:52.616] [renderer1] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: 97
+[2021-12-07 13:21:22.020] [renderer1] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: 226
+[2021-12-07 13:23:58.046] [renderer1] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: 1211
+[2021-12-07 13:27:05.910] [renderer1] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: 1547
+[2021-12-07 13:27:06.857] [renderer1] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: 1561
+[2021-12-07 13:37:59.706] [renderer1] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: 2438

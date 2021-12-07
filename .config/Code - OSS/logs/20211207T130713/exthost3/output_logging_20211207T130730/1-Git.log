@@ -1,0 +1,39 @@
+Validating found git in: git
+Using git 2.34.1 from git
+Opening repository for path='/home/neo/Downloads' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/neo/Downloads' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/neo/Downloads/1200px-.NET_Logo.svg.png' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/neo/Downloads/Json2Csharp.vsix' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/neo/Downloads/english' failed; ex=Error: spawn ENOTDIR
+> git rev-parse --git-dir
+Open repository: /home/neo/Downloads/horizon-theme-vscode
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/neo/Downloads/horizon-theme-vscode/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+Opening repository for path='/home/neo/Downloads/how_to_be_convincing.docx' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/neo/Downloads/prices.txt' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/neo/Downloads/result.csv' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/neo/Downloads' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git check-ignore -v -z --stdin

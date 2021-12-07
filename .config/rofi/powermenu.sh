@@ -16,7 +16,7 @@ $shutdown" | rofi -dmenu\
                   -i\
                   -p "Power"\
                   -config "~/.config/rofi/config.rasi"\
-                  -font "Noto Mono for Powerline 10"\
+                  -font "Iosevka Nerd Font 10"\
                   -width "10"\
                   -lines 5\
                   -line-margin 3\

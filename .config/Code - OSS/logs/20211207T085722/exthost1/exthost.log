@@ -1,0 +1,15 @@
+[2021-12-07 08:57:28.303] [exthost] [info] Extension host with pid 452661 started
+[2021-12-07 08:57:28.303] [exthost] [info] Skipping acquiring lock for /home/neo/.config/Code - OSS/User/workspaceStorage/ec5d3f3f1e62b51525bcc2971f18315e.
+[2021-12-07 08:57:28.447] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-07 08:57:28.452] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-07 08:57:28.486] [exthost] [info] ExtensionService#_doActivateExtension cweijan.cweijan-personal-material-icon-theme, startup: true, activationEvent: '*'
+[2021-12-07 08:57:28.499] [exthost] [info] ExtensionService#_doActivateExtension mblode.pretty-formatter, startup: true, activationEvent: '*'
+[2021-12-07 08:57:28.679] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-07 08:57:28.735] [exthost] [info] Eager extensions activated
+[2021-12-07 08:57:28.746] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-07 08:57:31.622] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-07 08:57:31.636] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-07 08:57:31.680] [exthost] [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-07 08:57:32.643] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2021-12-07 08:59:24.078] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-07 08:59:25.091] [exthost] [info] Extension host with pid 452661 exiting with code 0

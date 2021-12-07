@@ -1,0 +1,19 @@
+[2021-12-07 09:34:49.661] [exthost] [info] Extension host with pid 459831 started
+[2021-12-07 09:34:49.661] [exthost] [info] Skipping acquiring lock for /home/neo/.config/Code - OSS/User/workspaceStorage/266d64ce0bacfafd3398b4e1f4008618.
+[2021-12-07 09:34:49.895] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-07 09:34:49.920] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-07 09:34:49.985] [exthost] [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onLanguage:markdown'
+[2021-12-07 09:34:51.210] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-07 09:34:51.217] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-07 09:34:51.251] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2021-12-07 09:34:51.264] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-07 09:34:51.266] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-07 09:34:51.298] [exthost] [info] ExtensionService#_doActivateExtension cweijan.cweijan-personal-material-icon-theme, startup: true, activationEvent: '*'
+[2021-12-07 09:34:51.308] [exthost] [info] ExtensionService#_doActivateExtension mblode.pretty-formatter, startup: true, activationEvent: '*'
+[2021-12-07 09:34:51.527] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-07 09:34:51.586] [exthost] [info] Eager extensions activated
+[2021-12-07 09:34:51.652] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-07 09:34:51.723] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2021-12-07 10:06:25.801] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-07 11:21:03.359] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-07 11:21:04.389] [exthost] [info] Extension host with pid 459831 exiting with code 0

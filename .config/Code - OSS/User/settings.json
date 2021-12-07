@@ -1,0 +1,21 @@
+{
+    "window.zoomLevel": 4,
+    "git.confirmSync": false,
+    "workbench.colorTheme": "Horizon",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback','Noto Mono for Powerline'",
+    "[json]": {
+        "editor.defaultFormatter": "mblode.pretty-formatter"
+    },
+    "security.workspace.trust.startupPrompt": "always",
+    "security.workspace.trust.enabled": false,
+    "workbench.iconTheme": "rose-pine-icons",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "workbench.editorAssociations": {
+        "*.pyc": "default"
+    }
+}
