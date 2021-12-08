@@ -1,7 +1,0 @@
-[2021-12-07 08:59:34.483] [renderer1] [info] Starting extension host with pid 452956.
-[2021-12-07 08:59:34.484] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 38 ms.
-[2021-12-07 08:59:35.214] [renderer1] [error] [Extension Host] (node:452956) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `electron --trace-deprecation ...` to show where the warning was created)
-[2021-12-07 08:59:37.813] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/fsharp/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/fsharp/package.json'
-[2021-12-07 08:59:37.814] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/hlsl/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/hlsl/package.json'
-[2021-12-07 08:59:37.816] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/shellscript/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/shellscript/package.json'

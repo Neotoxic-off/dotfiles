@@ -1,5 +1,0 @@
-[2021-12-06 16:54:33.439] [renderer1] [info] Starting extension host with pid 447877.
-[2021-12-06 16:54:33.440] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 38 ms.
-[2021-12-06 16:54:34.341] [renderer1] [error] [Extension Host] (node:447877) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `electron --trace-deprecation ...` to show where the warning was created)
-[2021-12-06 16:54:39.275] [renderer1] [error] Problem invoking 'GetCodeActions' on OmniSharp server: Error: Request /v2/getcodeactions cancelled, id: undefined
