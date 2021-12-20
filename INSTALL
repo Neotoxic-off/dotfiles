@@ -7,8 +7,7 @@ install_pacman()
 {
     sudo pacman -Syu
 
-    printf "$GREEN [-] installing discord\n"
-    sudo pacman -Syu discord
+    sudo pacman -S ttf-iosevka
     printf "$GREEN [-] installing powerline\n"
     git clone https://github.com/powerline/fonts
     cd fonts
@@ -38,14 +37,6 @@ font_setup()
     cd ..
 }
 
-bspwm_install()
-{
-    git clone https://github.com/EndeavourOS-Community-Editions/bspwm.git
-    cd bspwm
-    bash bspwm-install.sh
-    cd ..
-}
-
 copy_dotfiles()
 {
     printf "$GREEN [-] copy dotfiles\n"
@@ -68,18 +59,9 @@ alacritty_setup()
     alacritty-themes Dracula
 }
 
-neovim_setup()
-{
-    mv ~/.config/nvim ~/.config/Nvim.backup
-    git clone https://github.com/NvChad/NvChad ~/.config/nvim
-    nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
-    cp .config/nvim ~/.config/
-}
 
 ssh_keygen
 install_pacman
 fish_setup
-bspwm_install
 copy_dotfiles
 alacritty_setup
-neovim_setup
